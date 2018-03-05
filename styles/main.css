@@ -1,0 +1,93 @@
+html,body{
+   margin: 0px;
+   background: url("../images/357450.jpg")no-repeat center/cover fixed ;
+   color:white;
+   font:100% verdana,sans-serif;
+   height:100%
+   /*text-shadow: -1px 0 black,0 1px black,1px 0 black,0 -1px black;*/
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+/*.container{
+background-color: #dcdee2;
+display: block;
+background-size: 100% 7px;
+padding-bottom: 1px;
+margin-left: 200px;
+margin-right:200px;
+border-radius: 25px;
+}*/
+.wrap1{
+height: 150px;
+/*display: flex;*/
+justify-content: left;
+align-items: center;
+width:100%
+}
+.wrap2{
+      margin-left:100px;
+    background: url("../images/photo-borders-1469029604HFQ.jpg")no-repeat;
+    color:black;
+}
+.wrap2>h1{
+  padding:60px 0px 0px 25px;
+  color:white;
+}
+.lidiv{
+  border:5px double #f4f7fc;
+  background-color: #f4f7fc;
+  padding: 5px;
+  display:table-cell;
+  width:100%
+}
+li>a>img:hover
+{
+  background-color: #f4f7fc;
+}
+.ol1{
+  list-style-type: decimal;
+  width: auto;
+  align-items: center;
+  padding-left: 50px;
+}
+.mylist{
+  list-style-type: none;
+  text-align: left;
+  padding-left: 0px
+}
+.borders>h1{
+  color:black;
+  border: 25px solid transparent ;
+  border-image: url("../images/marquee border.gif") 30 round;
+  text-align: center;
+  text-shadow: 2px 2px #000000
+  vertical-align: center;
+  padding:5px;
+  margin:50px auto auto auto;
+  font-style: italic;
+  font-size: 36px;
+  display: table;
+ /* transform:translateX(100%);
+  animation: txtColor 15s linear infinite;}
+  txtColor {
+  0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }*/
+}
+#txtsearchmovie{
+  float:right;
+  color:white;
+}
+#footer {
+    border-radius: 10px;
+    padding-left: 10px;
+    right:0;
+    bottom:0;
+    left:0;
+    margin-bottom: 0;
+    color:white;
+    text-align: center;
+    flex : 1 0 auto;
+    position: absolute;
+}
